@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31f5cc3d.chunk.css",
+    "main.js": "/static/js/main.bf6d237b.chunk.js",
+    "main.js.map": "/static/js/main.bf6d237b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.45cd8038.js",
+    "runtime-main.js.map": "/static/js/runtime-main.45cd8038.js.map",
+    "static/js/2.ceb702c8.chunk.js": "/static/js/2.ceb702c8.chunk.js",
+    "static/js/2.ceb702c8.chunk.js.map": "/static/js/2.ceb702c8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.df6d8328663e476c00d283ecc5cac620.js": "/precache-manifest.df6d8328663e476c00d283ecc5cac620.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.31f5cc3d.chunk.css.map": "/static/css/main.31f5cc3d.chunk.css.map",
+    "static/js/2.ceb702c8.chunk.js.LICENSE.txt": "/static/js/2.ceb702c8.chunk.js.LICENSE.txt",
+    "static/media/autobot-logo.svg": "/static/media/autobot-logo.b14011e5.svg",
+    "static/media/compass.svg": "/static/media/compass.7dbaa9f8.svg",
+    "static/media/heart.svg": "/static/media/heart.7746f5e4.svg",
+    "static/media/instagram-logo.svg": "/static/media/instagram-logo.906321b3.svg",
+    "static/media/profileIcon.svg": "/static/media/profileIcon.693576e2.svg",
+    "static/media/search.svg": "/static/media/search.dd9b4cef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45cd8038.js",
+    "static/js/2.ceb702c8.chunk.js",
+    "static/css/main.31f5cc3d.chunk.css",
+    "static/js/main.bf6d237b.chunk.js"
+  ]
+}
