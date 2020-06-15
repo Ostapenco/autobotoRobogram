@@ -1,20 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+// import { HashLink as Link } from 'react-router-hash-link';
 
 import './allPhotos.css';
 
 const AllPhotos = ({ data, handleClick }) => {
     return (
-        <ul className='allImages'>
-            {data.map((photo) => (
-                <div key={photo.id} className='imageContainer' >
-                    <img src={photo.urls.small} alt='roboPic' onClick={() => handleClick(photo)} >
-                    </img>
-                </div>
-            ))
-            }
-        </ul >
-
+        <Router>
+            <ul className='allImages'>
+                {data.map((photo) => (
+                    <Link to={photo.id}>
+                        <div key={photo.id} className='imageContainer' >
+                            <img src={photo.urls.small} alt='roboPic' onClick={() => handleClick(photo)} >
+                            </img>
+                        </div>
+                    </Link>
+                ))
+                }
+            </ul >
+        </Router>
     );
 }
 

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/autobotoRobogram/precache-manifest.1ebddb192cf7f57ffb8cbe1305e92c47.js"
+  "/autobotoRobogram/precache-manifest.902c797ef1c1fae911ebe33dd3beae43.js"
 );
 
 self.addEventListener('message', (event) => {
