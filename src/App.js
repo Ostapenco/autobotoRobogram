@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/header/header';
 import InfoBlock from './components/infoBlock/infoBlock';
 import PhotoBlock from './components/photoBlock/photoBlock';
+import Footer from './components/footer/footer';
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
         <InfoBlock user={user} />
         <PhotoBlock user={user} />
       </div>
-
+      <Footer />
     </div >
   );
 }

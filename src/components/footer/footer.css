@@ -1,0 +1,27 @@
+footer {
+  height: 18.59rem;
+  bottom: 0;
+}
+
+.outerContainer {
+  margin: 0 auto;
+  max-width: 65rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  justify-content: space-between;
+}
+
+.innerContainer img {
+  width: 50px;
+}
