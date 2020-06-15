@@ -1,0 +1,66 @@
+.modalContainer {
+  display: flex;
+  z-index: 9999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+}
+
+.modalContainerMainImage {
+  flex-grow: 2;
+  width: 100%;
+  min-width: 500px;
+}
+
+.modalInfo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 250px;
+  padding: 0 20px;
+}
+
+.modalInfoHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+}
+
+.modalInfoHeader span {
+  margin-left: 6px;
+}
+
+.modalInfoMain {
+  padding-top: 10px;
+}
+
+.bg {
+  z-index: 9998;
+  position: absolute;
+  width: 100%;
+  height: 2000px;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.hashtag {
+  color: blue;
+}
+
+.modalInfoHeader .pictureContainer {
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.modalInfoHeader .autobotLogo {
+  height: 12px;
+  width: 12px;
+  left: 37%;
+}

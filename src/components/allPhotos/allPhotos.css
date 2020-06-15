@@ -1,0 +1,24 @@
+.allImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imageContainer {
+  height: 370px;
+  width: 370px;
+  margin: 12px;
+  cursor: pointer;
+}
+
+.imageContainer img {
+  height: 370px;
+  width: 370px;
+  object-fit: cover;
+}
+
+.imageContainer img:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+  transform: scale(1.05);
+}
