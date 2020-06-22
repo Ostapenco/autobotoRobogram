@@ -24,7 +24,7 @@ const Modal = ({ picture, user, closeModal }) => {
         <div>
             <div className="modalContainer">
 
-                <img src={picture.urls.small} alt='modalPic' className='modalContainerMainImage'></img>
+                <img src={picture} alt='modalPic' className='modalContainerMainImage'></img>
                 <div className='modalInfo'>
                     <div className='modalInfoHeader'>
                         <ProfilePicture />
@@ -43,7 +43,7 @@ const Modal = ({ picture, user, closeModal }) => {
 }
 
 Modal.propTypes = {
-    picture: PropTypes.object.isRequired,
+    picture: PropTypes.string.isRequired,
     user: PropTypes.string.isRequired,
     closeModal: PropTypes.func.isRequired,
 }

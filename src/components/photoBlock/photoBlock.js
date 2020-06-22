@@ -12,7 +12,11 @@ const PhotoBlock = ({ user }) => {
 
     const client_id = "9y2K6JuE31mf03xrY1tJpB1kDR0T2Tit28UD9cqUjjg"
     const query = 'transformer';
-    const url = `https://api.unsplash.com/search/photos?client_id=${client_id}&query=${query}`;
+    const limit = 25;
+
+    const url = `https://api.unsplash.com/search/photos?client_id=${client_id}&query=${query}&per_page=${limit}`;
+
+
 
     const [data, loading] = useFetch(url);
     const [openPhoto, setOpenPhoto] = useState();
